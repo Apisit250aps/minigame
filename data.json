@@ -1,0 +1,943 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-27T03:35:54.063Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "computer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-27T03:41:24.566Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
+    "object_repr": "คอมพิวเตอร์คืออะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-27T03:41:45.415Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
+    "object_repr": "CPU ย่อมาจากอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-27T03:42:02.054Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
+    "object_repr": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-27T03:42:16.176Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "e142816c-6299-43dc-9134-e880aadfaac4",
+    "object_repr": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, …",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-27T03:42:31.647Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "573e2b45-42d5-4efe-97d7-47d9836629a4",
+    "object_repr": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Sp…",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-27T03:42:45.710Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
+    "object_repr": "มอนิเตอร์คืออะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-27T03:43:01.496Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
+    "object_repr": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-27T03:43:16.987Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "38dec0fa-846d-47d2-b2bd-2b490871197b",
+    "object_repr": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-27T03:43:37.894Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
+    "object_repr": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-27T03:43:50.399Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "04f0c73f-1a82-42cd-8736-2de8dd258154",
+    "object_repr": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-27T03:44:14.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
+    "object_repr": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-27T03:44:33.243Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "ae1427ce-c4f1-4974-9332-b716601ef875",
+    "object_repr": "อินเทอร์เน็ตคืออะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-27T03:44:50.657Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "319d4c73-275a-4432-8034-7e4d9296114a",
+    "object_repr": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-27T03:45:09.516Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
+    "object_repr": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-27T03:45:26.252Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
+    "object_repr": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-27T03:45:41.491Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "103186ef-f622-4c78-bcd3-dc631289cf74",
+    "object_repr": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-27T03:45:54.863Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
+    "object_repr": "E-Mail ย่อมาจากอะไร?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-27T03:46:09.070Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
+    "object_repr": "ใครคือ “Cybernaut”?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-27T03:46:22.887Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
+    "object_repr": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก:…",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-27T03:46:36.758Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "b1edc1b9-527f-48df-b390-d4b517adb509",
+    "object_repr": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Lapto…",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add topic",
+    "content_type": 7,
+    "codename": "add_topic"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change topic",
+    "content_type": 7,
+    "codename": "change_topic"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete topic",
+    "content_type": 7,
+    "codename": "delete_topic"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view topic",
+    "content_type": 7,
+    "codename": "view_topic"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 8,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 8,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 8,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view question",
+    "content_type": 8,
+    "codename": "view_question"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$NfZyhZdVS32HLq1WgTm3ta$uoQMT8x5IXYQgYOGbfMHb1TlxaF5AuAir19cbLjiW7I=",
+    "last_login": "2025-08-27T03:35:38.268Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-27T03:32:53.786Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "quest",
+    "model": "topic"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "quest",
+    "model": "question"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cwww6z8798ndbrg4mkqfod9o1a3gw00v",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5g7fqDA8iW4qRC3B0ipYD2zcx7sYDbWsM28hLmxM5MsNPvRhgfue0g3bHdOo-9rctMfFf4QQe_9pSfl8P9O6g46rf2ILIBUlYUBJi8ckRGiGKBpMnFJp1wkp4AJ-uETyS10TYq6aIEUI69P8R3NtA:1ur6wk:VJmEdkST_pHzACJdbqTP073fSNzTSSC7HxeVHLM13kA",
+    "expire_date": "2025-09-10T03:35:38.275Z"
+  }
+},
+{
+  "model": "quest.topic",
+  "pk": 1,
+  "fields": {
+    "name": "computer",
+    "description": "computer",
+    "created_at": "2025-08-27T03:35:54.060Z",
+    "updated_at": "2025-08-27T03:35:54.060Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "04f0c73f-1a82-42cd-8736-2de8dd258154",
+  "fields": {
+    "question": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
+    "answer": "โปรแกรมพิมพ์เอกสาร เช่น Microsoft Word",
+    "explanation": "ถูกใช้งานเพื่อเขียนและจัดรูปแบบเอกสาร",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:43:50.397Z",
+    "updated_at": "2025-08-27T03:43:50.397Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "103186ef-f622-4c78-bcd3-dc631289cf74",
+  "fields": {
+    "question": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
+    "answer": "Charles Babbage",
+    "explanation": "เขาออกแบบแนวคิดของคอมพิวเตอร์เชิงกลยุทธเครื่องแรก",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:45:41.491Z",
+    "updated_at": "2025-08-27T03:45:41.491Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
+  "fields": {
+    "question": "มอนิเตอร์คืออะไร?",
+    "answer": "อุปกรณ์แสดงภาพของคอมพิวเตอร์",
+    "explanation": "จอภาพใช้ดูสิ่งที่เครื่องคอมพิวเตอร์กำลังแสดงผล เช่น ข้อความ ภาพ วิดีโอ",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:42:45.708Z",
+    "updated_at": "2025-08-27T03:42:45.708Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "319d4c73-275a-4432-8034-7e4d9296114a",
+  "fields": {
+    "question": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
+    "answer": "World Wide Web",
+    "explanation": "ระบบลิ้งก์ที่เชื่อมเว็บไซต์บนอินเทอร์เน็ต",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:44:50.655Z",
+    "updated_at": "2025-08-27T03:44:50.655Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "38dec0fa-846d-47d2-b2bd-2b490871197b",
+  "fields": {
+    "question": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
+    "answer": "ขยายหน้าต่างให้เต็มจอ",
+    "explanation": "เหมาะสำหรับการดูเนื้อหาหน้าต่างให้ใหญ่ขึ้น",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:43:16.985Z",
+    "updated_at": "2025-08-27T03:43:16.985Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "573e2b45-42d5-4efe-97d7-47d9836629a4",
+  "fields": {
+    "question": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Speaker, CPU",
+    "answer": "Speaker",
+    "explanation": "ลำโพงใช้ให้เสียงออกมา ส่วนเมาส์เป็น input และ CPU เป็นชิ้นส่วนภายใน",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:42:31.645Z",
+    "updated_at": "2025-08-27T03:42:31.645Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
+  "fields": {
+    "question": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
+    "answer": "Ctrl + S",
+    "explanation": "ใช้เก็บเอกสารทันทีแบบด่วน",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:44:14.684Z",
+    "updated_at": "2025-08-27T03:44:14.684Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
+  "fields": {
+    "question": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
+    "answer": "Search engine",
+    "explanation": "เช่น Google, Bing ช่วยค้นหาเว็บเพจตามคำที่ต้องการ",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:45:09.513Z",
+    "updated_at": "2025-08-27T03:45:09.513Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
+  "fields": {
+    "question": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
+    "answer": "เปิด “แท็บ” (Tab) ใหม่",
+    "explanation": "ช่วยทำงานหลาย ๆ เว็บพร้อมกันในหน้าต่างเดียว",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:45:26.250Z",
+    "updated_at": "2025-08-27T03:45:26.250Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
+  "fields": {
+    "question": "ใครคือ “Cybernaut”?",
+    "answer": "ผู้ใช้อินเทอร์เน็ต",
+    "explanation": "คนที่ใช้อินเทอร์เน็ตเพื่อสำรวจหรือสื่อสาร",
+    "difficulty": 3,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:46:09.068Z",
+    "updated_at": "2025-08-27T03:46:09.068Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
+  "fields": {
+    "question": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก: Modem, Keyboard)",
+    "answer": "Modem",
+    "explanation": "แปลงสัญญาณอินเทอร์เน็ตให้ใช้งานกับคอมพ์ได้",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:46:22.885Z",
+    "updated_at": "2025-08-27T03:46:22.885Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
+  "fields": {
+    "question": "E-Mail ย่อมาจากอะไร?",
+    "answer": "Electronic Mail",
+    "explanation": "เป็นการส่งจดหมายผ่านระบบคอมพิวเตอร์",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:45:54.862Z",
+    "updated_at": "2025-08-27T03:45:54.862Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
+  "fields": {
+    "question": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
+    "answer": "รูปเล็กแทนโปรแกรมหรือไฟล์",
+    "explanation": "คลิกเพื่อเปิดไฟล์หรือโปรแกรมนั้น ๆ ได้สะดวก",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:43:37.893Z",
+    "updated_at": "2025-08-27T03:43:37.893Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "ae1427ce-c4f1-4974-9332-b716601ef875",
+  "fields": {
+    "question": "อินเทอร์เน็ตคืออะไร?",
+    "answer": "เครือข่ายคอมพิวเตอร์ขนาดใหญ่ที่เชื่อมต่อกันทั่วโลก",
+    "explanation": "ช่วยให้คอมพิวเตอร์หลายเครื่องสื่อสารแลกเปลี่ยนข้อมูลได้",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:44:33.242Z",
+    "updated_at": "2025-08-27T03:44:33.242Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "b1edc1b9-527f-48df-b390-d4b517adb509",
+  "fields": {
+    "question": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Laptop, Desktop)",
+    "answer": "Laptop",
+    "explanation": "พกพาสะดวก เหมาะสำหรับใช้นอกบ้าน\r\nระดับ: ง่าย",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:46:36.756Z",
+    "updated_at": "2025-08-27T03:46:36.756Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
+  "fields": {
+    "question": "CPU ย่อมาจากอะไร?",
+    "answer": "Central Processing Unit",
+    "explanation": "CPU คือหน่วยประมวลผลหลัก ควบคุมการทำงานของคอมพิวเตอร์ทุกส่วน",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:41:45.412Z",
+    "updated_at": "2025-08-27T03:41:45.412Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
+  "fields": {
+    "question": "คอมพิวเตอร์คืออะไร?",
+    "answer": "อุปกรณ์อิเล็กทรอนิกส์ที่ใช้เก็บ ประมวลผล และดึงข้อมูลมาใช้งาน",
+    "explanation": "คอมพิวเตอร์สามารถทำงานหลายอย่าง เช่น คำนวณ ส่งข้อมูล และจัดเก็บข้อมูลได้",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:41:24.563Z",
+    "updated_at": "2025-08-27T03:41:24.563Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "e142816c-6299-43dc-9134-e880aadfaac4",
+  "fields": {
+    "question": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, Monitor, Printer",
+    "answer": "Keyboard",
+    "explanation": "คีย์บอร์ดใช้พิมพ์ข้อมูลเข้าเครื่อง ส่วนจอภาพและเครื่องพิมพ์เป็นอุปกรณ์แสดงผล (output)",
+    "difficulty": 1,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:42:16.175Z",
+    "updated_at": "2025-08-27T03:42:16.175Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
+  "fields": {
+    "question": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
+    "answer": "ย่อหน้าต่างให้เป็นไอคอนบนทาสก์บาร์",
+    "explanation": "ช่วยจัดหน้าต่างบนหน้าจอให้เป็นระเบียบ",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:43:01.494Z",
+    "updated_at": "2025-08-27T03:43:01.494Z"
+  }
+},
+{
+  "model": "quest.question",
+  "pk": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
+  "fields": {
+    "question": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
+    "answer": "Random Access Memory — ข้อมูลจะหายเมื่อปิดเครื่อง (volatile memory)",
+    "explanation": "RAM ใช้เก็บข้อมูลชั่วคราวในขณะคอมพิวเตอร์ทำงาน",
+    "difficulty": 2,
+    "topic": 1,
+    "is_active": true,
+    "created_at": "2025-08-27T03:42:02.052Z",
+    "updated_at": "2025-08-27T03:42:02.052Z"
+  }
+}
+]
