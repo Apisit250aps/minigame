@@ -1,9 +1,10 @@
 from django.contrib import admin
 from .models import Topic, Question
 
+
 @admin.register(Topic)
 class TopicAdmin(admin.ModelAdmin):
-    list_display = ("id", "name", "short_desc", "created_at", "updated_at")
+    list_display = ("name", "short_desc", "created_at", "updated_at")
     search_fields = ("name", "description")
     ordering = ("name",)
     date_hierarchy = "created_at"
@@ -11,7 +12,12 @@ class TopicAdmin(admin.ModelAdmin):
     def short_desc(self, obj):
         if not obj.description:
             return "-"
-        return (obj.description[:60] + "…") if len(obj.description) > 60 else obj.description
+        return (
+            (obj.description[:60] + "…")
+            if len(obj.description) > 60
+            else obj.description
+        )
+
     short_desc.short_description = "Description"
 
 
@@ -25,7 +31,6 @@ class QuestionInline(admin.TabularInline):
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
     list_display = (
-        "id",
         "short_question",
         "topic",
         "difficulty",
@@ -43,4 +48,5 @@ class QuestionAdmin(admin.ModelAdmin):
 
     def short_question(self, obj):
         return (obj.question[:80] + "…") if len(obj.question) > 80 else obj.question
+
     short_question.short_description = "Question"
