@@ -1,38 +1,184 @@
 {% load static %}
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light"> <!-- จะสลับธีมด้วย JS -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Questions Game</title>
-  <!-- Tailwind CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <!-- Tailwind v4 CDN -->
   <script src="{% static 'libs/tailwindcss/dist/index.global.js' %}"></script>
   <!-- daisyUI -->
-  <link href="{% static 'libs/daisyui/daisyui.css' %}" rel="stylesheet" type="text/css" />
-  <link href="{% static 'libs/daisyui/themes.css' %}" rel="stylesheet" type="text/css" />
-  <!-- Vue.js -->
-  <script src="{% static 'libs/vue/dist/vue.global.js' %}"></script>
+  <link href="{% static 'libs/daisyui/daisyui.css' %}" rel="stylesheet" />
+  <link href="{% static 'libs/daisyui/themes.css' %}" rel="stylesheet" />
+
+  <!-- Vue 3 -->
+  <script src="{% static 'libs/vue/dist/vue.global.prod.js' %}"></script>
   <!-- Axios -->
   <script src="{% static 'libs/axios/dist/axios.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'src/style.css' %}">
+
+  <style>
+    [v-cloak] {
+      display: none
+    }
+
+    * {
+      font-family: "Itim", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
 </head>
 
 <body>
-  <main id="app">
-    <div class="hero bg-base-200 min-h-screen">
-      <div class="hero-content text-center">
-        <div class="max-w-md">
-          <h1 class="text-5xl font-bold">Hello there</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-            quasi. In deleniti eaque aut repudiandae et a id nisi.
-          </p>
-          <button class="btn btn-primary">Get Started</button>
+  <main id="app" v-cloak>
+    <!-- NAVBAR -->
+    <div class="navbar bg-base-100 sticky top-0 z-20">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">🎯 Questions Game</a>
+      </div>
+
+      <div class="flex-none gap-2">
+        <!-- Topics -->
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost">
+            Topics
+            <span class="badge badge-outline ml-2 max-w-36 truncate">[{ currentTopicName }]</span>
+          </div>
+          <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-box z-[1] w-56 p-2 shadow">
+            <li>
+              <a @click="setTopic(null)" :class="{active: !settings.topic}">All topics</a>
+            </li>
+            <li v-for="t in topics" :key="t.id">
+              <a @click="setTopic(t)" :class="{active: settings.topic && settings.topic.id === t.id}">
+                [{ t.name }]
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Difficulty -->
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost">
+            Difficulty
+            <span class="badge ml-2" :class="difficultyBadgeClass(settings.difficulty)">
+              [{ difficultyLabel(settings.difficulty) }]
+            </span>
+          </div>
+          <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-box z-[1] w-44 p-2 shadow">
+            <li><a @click="setDifficulty(null)" :class="{active: settings.difficulty===null}">Any</a></li>
+            <li><a @click="setDifficulty(1)" :class="{active: settings.difficulty===1}">Easy</a></li>
+            <li><a @click="setDifficulty(2)" :class="{active: settings.difficulty===2}">Medium</a></li>
+            <li><a @click="setDifficulty(3)" :class="{active: settings.difficulty===3}">Hard</a></li>
+          </ul>
+        </div>
+
+        <!-- Theme -->
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost">Theme</div>
+          <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-box z-[1] w-44 p-2 shadow">
+            <li><a @click="setTheme('light')">Light</a></li>
+            <li><a @click="setTheme('dark')">Dark</a></li>
+            <li><a @click="setTheme('cupcake')">Cupcake</a></li>
+            <li><a @click="setTheme('emerald')">Emerald</a></li>
+            <li><a @click="setTheme('synthwave')">Synthwave</a></li>
+          </ul>
         </div>
       </div>
     </div>
+
+    <!-- CONTENT -->
+    <section class="min-h-[calc(100vh-4rem)] ">
+      <div class="container mx-auto px-4 py-10 max-w-3xl h-screen flex justify-center items-center">
+        <!-- Loading -->
+        <div v-if="loading" class="space-y-4">
+          <div class="skeleton h-8 w-40"></div>
+          <div class="card shadow bg-base-100 ">
+            <div class="card-body">
+              <div class="skeleton h-6 w-24"></div>
+              <div class="skeleton h-10 w-full"></div>
+              <div class="skeleton h-10 w-2/3"></div>
+              <div class="skeleton h-5 w-32"></div>
+              <div class="skeleton h-12 w-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Error -->
+        <div v-else-if="error" class="alert alert-error">
+          <span>[{ error }]</span>
+        </div>
+
+        <!-- Empty -->
+        <div v-else-if="filteredQuestions.length === 0" class="card shadow bg-base-100 ">
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">No questions found 🥲</h2>
+            <p class="opacity-80">ลองเปลี่ยน Topic หรือ Difficulty ดูนะ</p>
+            <div class="card-actions">
+              <button class="btn" @click="resetFilters">Reset filters</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quiz Card shadow -->
+        <div v-else class="card shadow bg-base-100 lg:min-w-[1000px]">
+          <div class="card-body">
+            <div class="flex flex-wrap items-center gap-2 justify-between">
+              <div class="flex items-center gap-2">
+                <span class="badge badge-outline">[{ currentTopicName }]</span>
+                <span class="badge" :class="difficultyBadgeClass(settings.difficulty)">
+                  [{ difficultyLabel(settings.difficulty) }]
+                </span>
+              </div>
+              <div class="text-sm opacity-70">
+                Q [{ quizIndex + 1 }] / [{ filteredQuestions.length }]
+              </div>
+            </div>
+
+            <h1 class="text-2xl md:text-5xl font-bold leading-relaxed mt-2">
+              [{ quiz?.question }]
+            </h1>
+
+            <div class="mt-4">
+              <progress class="progress w-full" :value="quizIndex+1" :max="filteredQuestions.length"></progress>
+            </div>
+
+            <div class="card-actions mt-6 justify-between gap-2 flex-wrap">
+              <div class="join">
+                <button class="btn join-item" @click="randomize()">Shuffle</button>
+                <button class="btn btn-primary join-item" @click="showAnswer()">Reveal answer (A)</button>
+                <button class="btn join-item" @click="nextQuestion()">Next (N)</button>
+              </div>
+              <button class="btn btn-ghost" @click="startQuiz()">Restart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Answer Modal -->
+    <dialog id="ansModal" class="modal">
+      <div class="modal-box">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+        <h3 class="text-lg font-bold mb-2">Answer</h3>
+        <p class="font-medium text-4xl">[{ quiz?.answer }]</p>
+        <div class="divider"></div>
+        <p class="opacity-80 mt-2 text-2xl">[{ quiz?.explanation }]</p>
+        <!-- <div class="modal-action">
+          <button class="btn" @click="nextQuestion()">Next</button>
+        </div> -->
+      </div>
+      <form method="dialog" class="modal-backdrop"><button>close</button></form>
+    </dialog>
   </main>
+
+  <!-- Your app logic -->
   <script type="module" src="{% static 'src/index.js' %}"></script>
 </body>
 
