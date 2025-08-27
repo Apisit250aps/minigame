@@ -1,943 +1,2729 @@
 [
-{
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2025-08-27T03:35:54.063Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "computer",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-08-27T03:35:54.063Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "computer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-08-27T03:41:24.566Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
+      "object_repr": "คอมพิวเตอร์คืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-08-27T03:41:45.415Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
+      "object_repr": "CPU ย่อมาจากอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-08-27T03:42:02.054Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
+      "object_repr": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-08-27T03:42:16.176Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "e142816c-6299-43dc-9134-e880aadfaac4",
+      "object_repr": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, …",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-08-27T03:42:31.647Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "573e2b45-42d5-4efe-97d7-47d9836629a4",
+      "object_repr": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Sp…",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-08-27T03:42:45.710Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
+      "object_repr": "มอนิเตอร์คืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-08-27T03:43:01.496Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
+      "object_repr": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-08-27T03:43:16.987Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "38dec0fa-846d-47d2-b2bd-2b490871197b",
+      "object_repr": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-08-27T03:43:37.894Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
+      "object_repr": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-08-27T03:43:50.399Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "04f0c73f-1a82-42cd-8736-2de8dd258154",
+      "object_repr": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-08-27T03:44:14.686Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
+      "object_repr": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-08-27T03:44:33.243Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "ae1427ce-c4f1-4974-9332-b716601ef875",
+      "object_repr": "อินเทอร์เน็ตคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-08-27T03:44:50.657Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "319d4c73-275a-4432-8034-7e4d9296114a",
+      "object_repr": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2025-08-27T03:45:09.516Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
+      "object_repr": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2025-08-27T03:45:26.252Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
+      "object_repr": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2025-08-27T03:45:41.491Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "103186ef-f622-4c78-bcd3-dc631289cf74",
+      "object_repr": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2025-08-27T03:45:54.863Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
+      "object_repr": "E-Mail ย่อมาจากอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2025-08-27T03:46:09.070Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
+      "object_repr": "ใครคือ “Cybernaut”?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2025-08-27T03:46:22.887Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
+      "object_repr": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก:…",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2025-08-27T03:46:36.758Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "b1edc1b9-527f-48df-b390-d4b517adb509",
+      "object_repr": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Lapto…",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2025-08-27T07:16:59.686Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "science",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2025-08-27T07:23:08.782Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "67339ccb-b33e-4c6b-be80-ce79deadf523",
+      "object_repr": "น้ำแข็งเมื่อละลายกลายเป็นอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2025-08-27T07:23:52.345Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "b611eeaf-8b05-44cf-be95-3bb7ca2bad44",
+      "object_repr": "โลกหมุนรอบตัวเองใช้เวลากี่ชั่วโมง?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2025-08-27T07:24:28.185Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "90ee0ed8-e2a5-4ec4-b949-0c2a9a836b4b",
+      "object_repr": "ร่างกายมนุษย์ต้องการก๊าซอะไรในการหายใจ?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2025-08-27T07:24:47.861Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "bab6db91-02c0-423b-9d6c-4d74fcc27250",
+      "object_repr": "พืชสร้างอาหารเองได้ด้วยกระบวนการใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2025-08-27T07:25:04.394Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2b3fc8a7-0694-4604-b5e9-c2523c332921",
+      "object_repr": "ดวงจันทร์สะท้อนแสงของวัตถุใดจึงสว่างบนท้องฟ้า?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2025-08-27T07:25:20.349Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d7715b2a-d8c5-4df9-94d3-f6f3a151993a",
+      "object_repr": "เลือดในร่างกายมนุษย์สูบฉีดโดยอวัยวะใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2025-08-27T07:25:38.135Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "c73068af-dc03-4894-b9f9-f3c5ecf2096a",
+      "object_repr": "สัตว์เลี้ยงลูกด้วยน้ำนมทั้งหมดมีลักษณะร่วมสำคัญคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2025-08-27T07:25:56.554Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "757aef9f-eab9-472c-b4e9-b489f2c46c12",
+      "object_repr": "ดาวเคราะห์ดวงใดใหญ่ที่สุดในระบบสุริยะ?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2025-08-27T07:26:15.535Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "e7bef7a7-ba05-4ff4-a08a-536f3cda4217",
+      "object_repr": "สารใดทำให้พืชมีสีเขียว?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2025-08-27T07:26:33.584Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d85dd2ae-13d5-440b-950b-eefc099adfce",
+      "object_repr": "น้ำเดือดที่อุณหภูมิเท่าไร (ที่ความดันบรรยากาศปกติ)?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2025-08-27T07:26:50.620Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "e8a3f73f-ff0e-48cc-9ecd-67db27fb08fe",
+      "object_repr": "การหมุนรอบดวงอาทิตย์ของโลกใช้เวลากี่วัน?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2025-08-27T07:27:06.973Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "cf734dcb-863a-4f6c-a5db-6ee5c0e60f40",
+      "object_repr": "การที่น้ำกลายเป็นไอน้ำเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2025-08-27T07:27:24.261Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "da31a32f-a9a2-4145-99c6-34093ac4f40f",
+      "object_repr": "ธาตุพื้นฐานที่เล็กที่สุดคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2025-08-27T07:27:44.581Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "52e7bfb4-513f-4baa-90c2-4c2c895c01fb",
+      "object_repr": "การแยกสีรุ้งเกิดจากปรากฏการณ์อะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2025-08-27T07:28:07.115Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1c7dffba-af37-4fb8-8738-aba2e01947dd",
+      "object_repr": "สัตว์เลื้อยคลานส่วนใหญ่ขยายพันธุ์โดยวิธีใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2025-08-27T07:28:31.059Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7939de61-ce69-475d-8913-7eec6fcadf31",
+      "object_repr": "ดวงดาวใดเป็นศูนย์กลางของระบบสุริยะ?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2025-08-27T07:28:50.810Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "f56ba348-34ad-4935-8cc8-11b9dcb4188a",
+      "object_repr": "ปอดของคนอยู่กี่ข้าง?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2025-08-27T07:29:10.797Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46b5579a-1abe-42d5-9b07-fa6f5b732f51",
+      "object_repr": "กระดูกในร่างกายมนุษย์ผู้ใหญ่มีประมาณกี่ชิ้น?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2025-08-27T07:29:29.342Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5f482843-3558-453b-8002-44f2cd77118a",
+      "object_repr": "เสียงเดินทางได้ดีกว่าในของแข็ง ของเหลว หรือก๊าซ?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2025-08-27T07:29:46.183Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d5345eb9-5a34-4eac-8e56-c37afaf2c5b5",
+      "object_repr": "เซลล์สมองเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2025-08-27T07:30:07.092Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "62137cd5-705a-4799-ae7e-8ae946c3b6c1",
+      "object_repr": "อวัยวะใดทำหน้าที่ควบคุมการทำงานของร่างกายเป็นหลัก?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2025-08-27T07:30:25.129Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9202d2e7-4552-459f-8ba7-3e42fc59db4a",
+      "object_repr": "โลหะใดนำไฟฟ้าได้ดีที่สุด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2025-08-27T07:30:41.900Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "01d14fcc-0118-405c-bb20-250b33bcccfc",
+      "object_repr": "ไฟฟ้าเกิดจากการเคลื่อนที่ของอนุภาคใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2025-08-27T07:30:57.860Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "0a0ebd4f-7e85-4ede-9f8c-172b4093a6f5",
+      "object_repr": "สัตว์ที่มีกระดูกสันหลังเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2025-08-27T07:34:09.118Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9b9f473c-1a39-46ea-88a1-e29ce4767aad",
+      "object_repr": "น้ำหนักกับมวลต่างกันอย่างไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2025-08-27T07:35:00.586Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "ba401ef1-751d-45d5-8691-8b0dd3ff0349",
+      "object_repr": "พลังงานแสงอาทิตย์จัดเป็นพลังงานประเภทใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2025-08-27T07:35:25.759Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d1ec3d13-be6b-4626-9f8f-f75e92281853",
+      "object_repr": "แรงที่ดึงทุกสิ่งเข้าสู่โลกเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2025-08-27T07:38:04.769Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "54af70c7-81e2-4815-aa39-35d8cc0c234f",
+      "object_repr": "การหมุนรอบตัวเองของโลกทำให้เกิดอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2025-08-27T07:39:00.140Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "622297f5-b4a0-42a8-b363-34d9c4bce061",
+      "object_repr": "ปรอทในเทอร์โมมิเตอร์เปลี่ยนแปลงตามสิ่งใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2025-08-27T07:39:41.376Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "75248909-1ba3-45be-8e1a-275e0a5c280f",
+      "object_repr": "ดาวเคราะห์ที่อยู่ใกล้ดวงอาทิตย์ที่สุดคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2025-08-27T07:40:05.445Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "e5c5ed30-1577-43f0-b5bf-2777ee1fee22",
+      "object_repr": "น้ำกลายเป็นน้ำแข็งเรียกว่ากระบวนการอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2025-08-27T07:40:24.327Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "c0ffdea2-de4e-4802-819b-df9d8e76b150",
+      "object_repr": "ฟ้าแลบเกิดจากอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2025-08-27T07:40:43.895Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d8bc4faa-33c3-4eba-ad53-61fed4a9b21b",
+      "object_repr": "ดาวเคราะห์สีแดงคือดาวอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2025-08-27T07:41:06.342Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "42b8206c-fc53-4f02-856b-95ab6ae4fc21",
+      "object_repr": "พลังงานไฟฟ้าสามารถเปลี่ยนเป็นพลังงานรูปแบบใดได้บ้าง?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2025-08-27T07:41:24.672Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "29879f79-1ef1-42ee-bc43-10b24c47727d",
+      "object_repr": "ปรากฏการณ์น้ำขึ้นน้ำลงเกิดจากแรงโน้มถ่วงของวัตถุใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2025-08-27T07:41:42.062Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3f70c3e4-2c49-49fd-9b66-69b852c7676c",
+      "object_repr": "หูมีหน้าที่สำคัญ 2 อย่างคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2025-08-27T07:41:59.481Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "d8ffc151-077f-4a5a-91ca-f6d3e53161f7",
+      "object_repr": "เหตุใดเราจึงเห็นฟ้าเป็นสีฟ้า?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2025-08-27T07:42:15.766Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7b21d428-dc85-4c85-98c8-598762c948ec",
+      "object_repr": "พลังงานลมมาจากอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2025-08-27T07:42:33.036Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5499c94a-e807-4d07-9b80-63359c88d7fc",
+      "object_repr": "ดวงดาวใดที่มีแสงของตัวเอง?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2025-08-27T07:42:59.496Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2d0b2caa-cc45-4d6e-993e-c74f5c9a2c9e",
+      "object_repr": "อวัยวะใดทำหน้าที่กรองของเสียออกจากเลือด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2025-08-27T07:43:17.134Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "30ce3f70-2a51-4f1a-8999-d99e5d6c85d6",
+      "object_repr": "การที่น้ำซึมขึ้นมาตามหลอดแก้วแคบเรียกว่าอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2025-08-27T07:43:38.159Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "bf023b6a-b2e6-4bca-90c9-b6ae229f69e0",
+      "object_repr": "ทำไมเราจึงต้องกินอาหาร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2025-08-27T07:44:00.886Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5da4f854-1015-4394-b1ec-5c50a5bef965",
+      "object_repr": "การหายใจเข้าออกทำให้ได้ก๊าซอะไรเข้าสู่ร่างกาย และขับก๊าซอะไร…",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2025-08-27T07:44:17.399Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19948704-95de-45bd-b91b-4ebd6963f6b1",
+      "object_repr": "ดาวเสาร์มีลักษณะเด่นอะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2025-08-27T07:44:38.140Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1b36a1f5-13b2-464d-b176-4ccf81d781be",
+      "object_repr": "การละลายของน้ำตาลในน้ำจัดเป็นการเปลี่ยนแปลงชนิดใด?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2025-08-27T07:44:54.773Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7cc9d1cf-f8e3-45c6-92b1-0340b89a9cfa",
+      "object_repr": "พลังงานความร้อนถ่ายเทได้ 3 วิธีคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2025-08-27T07:45:12.518Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "187e63ca-62d4-4247-9263-e90e898ddcea",
+      "object_repr": "ทำไมเสียงจึงไม่สามารถเดินทางในอวกาศได้?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2025-08-27T07:45:31.331Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "f917f83f-0043-4f3a-95d3-0bfd1ac89fe1",
+      "object_repr": "สัตว์ที่สร้างใยเพื่อจับเหยื่อคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2025-08-27T07:45:49.242Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9682ef5d-cf0e-4ef5-8d37-044fc03c8615",
+      "object_repr": "การที่วัตถุเปลี่ยนจากของแข็งเป็นไอโดยไม่ผ่านของเหลวเรียกว่าอ…",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2025-08-27T07:46:10.369Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "94c7da02-759d-4e48-9f37-05a5318faa6d",
+      "object_repr": "ดาวเคราะห์ที่โคจรรอบตัวเองเอียงทำให้เกิดฤดูกาลชัดเจนคืออะไร?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2025-08-27T09:08:20.751Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "58335c51-3f9c-4a3f-a5bc-878df5fc1e35",
+      "object_repr": "Input Device หมายถึงอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2025-08-27T09:08:41.502Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "487f73ea-97f5-444c-b829-e36c4fb13bed",
+      "object_repr": "Output Device คืออะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2025-08-27T09:11:20.332Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "511edc6c-a52e-4014-9de1-1215d157fb16",
+      "object_repr": "โปรแกรม Antivirus ใช้ทำอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2025-08-27T09:11:38.139Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "e0c243a7-3bf0-4a61-ae79-8664467115cb",
+      "object_repr": "Cloud Storage คืออะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2025-08-27T09:13:04.587Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3ba4f37d-fb30-4275-9bf2-e85704b5c6de",
+      "object_repr": "คำว่า “File” หมายถึงอะไรในคอมพิวเตอร์",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2025-08-27T09:13:30.464Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "332480b3-040c-4e87-9da5-4ca560cfc4e1",
+      "object_repr": "การกดปุ่ม Ctrl + C ใช้ทำอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2025-08-27T09:14:13.626Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "dcbbd00d-2fe2-4dee-bc0f-ead48c2188db",
+      "object_repr": "HTTP ย่อมาจากอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2025-08-27T09:14:40.002Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "fd6c63bf-9ac5-4518-a594-5578a2b03a18",
+      "object_repr": "Search Engine คืออะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2025-08-27T09:14:57.955Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7351d2c3-d3bd-40ec-9feb-eef9cf942386",
+      "object_repr": "SSD แตกต่างจาก HDD อย่างไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2025-08-27T09:15:22.135Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "aa2b3014-c227-4122-93db-df7506258bb5",
+      "object_repr": "GPU ใช้ทำอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2025-08-27T09:15:52.779Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "24a3eee3-3d66-418b-8035-f86a70d6cd73",
+      "object_repr": "หน่วยความจำ 1 GB เท่ากับกี่ MB",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2025-08-27T09:16:29.002Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "58325405-acdb-4255-b182-756d62524c5f",
+      "object_repr": "IOT ย่อมาจากอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2025-08-27T09:16:52.872Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "c5ce96c0-4509-4c6e-a2b8-182973999972",
+      "object_repr": "การกด Ctrl + V ใช้ทำอะไร",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2025-08-27T09:17:09.022Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "af8360d8-ec2e-4dab-b1b5-8491c9a7fc82",
+      "object_repr": "การบันทึกไฟล์ใน Word ใช้ปุ่มลัดใด",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2025-08-27T09:17:25.360Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18464d98-b50a-4daa-8313-58ab7039bf23",
+      "object_repr": "การเลือกข้อความทั้งหมดในเอกสารใช้ปุ่มใด",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add topic",
+      "content_type": 7,
+      "codename": "add_topic"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change topic",
+      "content_type": 7,
+      "codename": "change_topic"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete topic",
+      "content_type": 7,
+      "codename": "delete_topic"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view topic",
+      "content_type": 7,
+      "codename": "view_topic"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add question",
+      "content_type": 8,
+      "codename": "add_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change question",
+      "content_type": 8,
+      "codename": "change_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete question",
+      "content_type": 8,
+      "codename": "delete_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view question",
+      "content_type": 8,
+      "codename": "view_question"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$NfZyhZdVS32HLq1WgTm3ta$uoQMT8x5IXYQgYOGbfMHb1TlxaF5AuAir19cbLjiW7I=",
+      "last_login": "2025-08-27T07:12:30.350Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-08-27T03:32:53.786Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "quest",
+      "model": "topic"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "quest",
+      "model": "question"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "cwww6z8798ndbrg4mkqfod9o1a3gw00v",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5g7fqDA8iW4qRC3B0ipYD2zcx7sYDbWsM28hLmxM5MsNPvRhgfue0g3bHdOo-9rctMfFf4QQe_9pSfl8P9O6g46rf2ILIBUlYUBJi8ckRGiGKBpMnFJp1wkp4AJ-uETyS10TYq6aIEUI69P8R3NtA:1ur6wk:VJmEdkST_pHzACJdbqTP073fSNzTSSC7HxeVHLM13kA",
+      "expire_date": "2025-09-10T03:35:38.275Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "pthpt6pzndsgl76yz6prxjpljyhjnm26",
+    "fields": {
+      "session_data": ".eJxVjDkOwjAUBe_iGlnx9mNT0ucM0d8gAeRIWSrE3SFSCmjfzLyX6XFbh35bdO5HMWfjzOl3I-SH1h3IHettsjzVdR7J7oo96GK7SfR5Ody_gwGX4Vt7wAg5NbEQ5IicWKhtGXx2yhiJi0qCEBp1QgWKC5i5oRQRvF5zMO8P2vU31Q:1urAKc:QE412WY02BZ5rBCYXimiJ8r_SWhCacIg9-WUoCnBgXc",
+      "expire_date": "2025-09-10T07:12:30.354Z"
+    }
+  },
+  {
+    "model": "quest.topic",
+    "pk": 1,
+    "fields": {
+      "name": "computer",
+      "description": "computer",
+      "created_at": "2025-08-27T03:35:54.060Z",
+      "updated_at": "2025-08-27T03:35:54.060Z"
+    }
+  },
+  {
+    "model": "quest.topic",
+    "pk": 2,
+    "fields": {
+      "name": "science",
+      "description": "",
+      "created_at": "2025-08-27T07:16:59.684Z",
+      "updated_at": "2025-08-27T07:16:59.684Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "01d14fcc-0118-405c-bb20-250b33bcccfc",
+    "fields": {
+      "question": "ไฟฟ้าเกิดจากการเคลื่อนที่ของอนุภาคใด?",
+      "answer": "อิเล็กตรอน",
+      "explanation": "กระแสไฟฟ้าเกิดจากการไหลของอิเล็กตรอนในตัวนำ",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:30:41.898Z",
+      "updated_at": "2025-08-27T07:30:41.898Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "04f0c73f-1a82-42cd-8736-2de8dd258154",
+    "fields": {
+      "question": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
+      "answer": "โปรแกรมพิมพ์เอกสาร เช่น Microsoft Word",
+      "explanation": "ถูกใช้งานเพื่อเขียนและจัดรูปแบบเอกสาร",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:43:50.397Z",
+      "updated_at": "2025-08-27T03:43:50.397Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "0a0ebd4f-7e85-4ede-9f8c-172b4093a6f5",
+    "fields": {
+      "question": "สัตว์ที่มีกระดูกสันหลังเรียกว่าอะไร?",
+      "answer": "สัตว์มีกระดูกสันหลัง (Vertebrates)",
+      "explanation": "เช่น ปลา สัตว์สะเทินน้ำสะเทินบก สัตว์เลื้อยคลาน นก และสัตว์เลี้ยงลูกด้วยนม",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:30:57.858Z",
+      "updated_at": "2025-08-27T07:30:57.858Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "103186ef-f622-4c78-bcd3-dc631289cf74",
+    "fields": {
+      "question": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
+      "answer": "Charles Babbage",
+      "explanation": "เขาออกแบบแนวคิดของคอมพิวเตอร์เชิงกลยุทธเครื่องแรก",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:45:41.491Z",
+      "updated_at": "2025-08-27T03:45:41.491Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "18464d98-b50a-4daa-8313-58ab7039bf23",
+    "fields": {
+      "question": "การเลือกข้อความทั้งหมดในเอกสารใช้ปุ่มใด",
+      "answer": "Ctrl + A",
+      "explanation": "เลือกข้อความทั้งไฟล์พร้อมกัน",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:17:25.360Z",
+      "updated_at": "2025-08-27T09:17:25.360Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "187e63ca-62d4-4247-9263-e90e898ddcea",
+    "fields": {
+      "question": "ทำไมเสียงจึงไม่สามารถเดินทางในอวกาศได้?",
+      "answer": "เพราะไม่มีตัวกลาง",
+      "explanation": "เสียงต้องอาศัยการสั่นสะเทือนของโมเลกุลในตัวกลาง เช่น อากาศ น้ำ หรือของแข็ง",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:45:12.517Z",
+      "updated_at": "2025-08-27T07:45:12.517Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "19948704-95de-45bd-b91b-4ebd6963f6b1",
+    "fields": {
+      "question": "ดาวเสาร์มีลักษณะเด่นอะไร?",
+      "answer": "มีวงแหวนขนาดใหญ่",
+      "explanation": "วงแหวนประกอบด้วยน้ำแข็งและหินนับล้านชิ้นล้อมรอบดาว",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:44:17.397Z",
+      "updated_at": "2025-08-27T07:44:17.397Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "1b36a1f5-13b2-464d-b176-4ccf81d781be",
+    "fields": {
+      "question": "การละลายของน้ำตาลในน้ำจัดเป็นการเปลี่ยนแปลงชนิดใด?",
+      "answer": "การเปลี่ยนแปลงทางกายภาพ",
+      "explanation": "น้ำตาลละลายในน้ำโดยไม่เกิดสารใหม่ เพียงแค่กระจายตัวในน้ำ",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:44:38.138Z",
+      "updated_at": "2025-08-27T07:44:38.139Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "1c7dffba-af37-4fb8-8738-aba2e01947dd",
+    "fields": {
+      "question": "สัตว์เลื้อยคลานส่วนใหญ่ขยายพันธุ์โดยวิธีใด?",
+      "answer": "วางไข่",
+      "explanation": "เช่น งู เต่า จระเข้ แม้บางชนิดมีการออกลูกเป็นตัว แต่ส่วนใหญ่ใช้วิธีวางไข่",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:28:07.113Z",
+      "updated_at": "2025-08-27T07:28:07.113Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
+    "fields": {
+      "question": "มอนิเตอร์คืออะไร?",
+      "answer": "อุปกรณ์แสดงภาพของคอมพิวเตอร์",
+      "explanation": "จอภาพใช้ดูสิ่งที่เครื่องคอมพิวเตอร์กำลังแสดงผล เช่น ข้อความ ภาพ วิดีโอ",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:42:45.708Z",
+      "updated_at": "2025-08-27T03:42:45.708Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "24a3eee3-3d66-418b-8035-f86a70d6cd73",
+    "fields": {
+      "question": "หน่วยความจำ 1 GB เท่ากับกี่ MB",
+      "answer": "1024 MB",
+      "explanation": "1 GB = 1024 MB, 1 MB = 1024 KB",
+      "difficulty": 3,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:15:52.778Z",
+      "updated_at": "2025-08-27T09:15:52.778Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "29879f79-1ef1-42ee-bc43-10b24c47727d",
+    "fields": {
+      "question": "ปรากฏการณ์น้ำขึ้นน้ำลงเกิดจากแรงโน้มถ่วงของวัตถุใด?",
+      "answer": "ดวงจันทร์ (และดวงอาทิตย์)",
+      "explanation": "แรงโน้มถ่วงของดวงจันทร์ดึงน้ำในมหาสมุทร ทำให้เกิดน้ำขึ้นและน้ำลง",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:41:24.670Z",
+      "updated_at": "2025-08-27T07:41:24.670Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "2b3fc8a7-0694-4604-b5e9-c2523c332921",
+    "fields": {
+      "question": "ดวงจันทร์สะท้อนแสงของวัตถุใดจึงสว่างบนท้องฟ้า?",
+      "answer": "ดวงอาทิตย์",
+      "explanation": "ดวงจันทร์ไม่มีแสงในตัวเอง แต่อาศัยการสะท้อนแสงจากดวงอาทิตย์",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:25:04.392Z",
+      "updated_at": "2025-08-27T07:25:04.392Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "2d0b2caa-cc45-4d6e-993e-c74f5c9a2c9e",
+    "fields": {
+      "question": "อวัยวะใดทำหน้าที่กรองของเสียออกจากเลือด?",
+      "answer": "ไต",
+      "explanation": "ไตกรองเลือด ขับของเสียออกมาเป็นปัสสาวะ และควบคุมสมดุลน้ำและเกลือแร่",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:42:59.494Z",
+      "updated_at": "2025-08-27T07:42:59.494Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "30ce3f70-2a51-4f1a-8999-d99e5d6c85d6",
+    "fields": {
+      "question": "การที่น้ำซึมขึ้นมาตามหลอดแก้วแคบเรียกว่าอะไร?",
+      "answer": "แรงตึงผิวและแรงยึดเกาะ (Capillary action)",
+      "explanation": "น้ำสามารถเคลื่อนที่สวนแรงโน้มถ่วงได้เพราะแรงยึดเกาะกับผนังและแรงตึงผิว",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:43:17.132Z",
+      "updated_at": "2025-08-27T07:43:17.132Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "319d4c73-275a-4432-8034-7e4d9296114a",
+    "fields": {
+      "question": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
+      "answer": "World Wide Web",
+      "explanation": "ระบบลิ้งก์ที่เชื่อมเว็บไซต์บนอินเทอร์เน็ต",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:44:50.655Z",
+      "updated_at": "2025-08-27T03:44:50.655Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "332480b3-040c-4e87-9da5-4ca560cfc4e1",
+    "fields": {
+      "question": "การกดปุ่ม Ctrl + C ใช้ทำอะไร",
+      "answer": "คัดลอก (Copy) ข้อมูล",
+      "explanation": "เป็นคำสั่งลัด (Shortcut) ที่ใช้บ่อย",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:13:30.463Z",
+      "updated_at": "2025-08-27T09:13:30.463Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "38dec0fa-846d-47d2-b2bd-2b490871197b",
+    "fields": {
+      "question": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
+      "answer": "ขยายหน้าต่างให้เต็มจอ",
+      "explanation": "เหมาะสำหรับการดูเนื้อหาหน้าต่างให้ใหญ่ขึ้น",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:43:16.985Z",
+      "updated_at": "2025-08-27T03:43:16.985Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "3ba4f37d-fb30-4275-9bf2-e85704b5c6de",
+    "fields": {
+      "question": "คำว่า “File” หมายถึงอะไรในคอมพิวเตอร์",
+      "answer": "ข้อมูลที่บันทึกไว้ในหน่วยเก็บข้อมูล",
+      "explanation": "เช่น ไฟล์ภาพ ไฟล์เอกสาร ไฟล์เพลง",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:13:04.587Z",
+      "updated_at": "2025-08-27T09:13:04.587Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "3f70c3e4-2c49-49fd-9b66-69b852c7676c",
+    "fields": {
+      "question": "หูมีหน้าที่สำคัญ 2 อย่างคืออะไร?",
+      "answer": "การได้ยิน และการทรงตัว",
+      "explanation": "หูชั้นในไม่เพียงรับเสียง แต่ยังมีอวัยวะควบคุมการทรงตัว",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:41:42.060Z",
+      "updated_at": "2025-08-27T07:41:42.060Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "42b8206c-fc53-4f02-856b-95ab6ae4fc21",
+    "fields": {
+      "question": "พลังงานไฟฟ้าสามารถเปลี่ยนเป็นพลังงานรูปแบบใดได้บ้าง?",
+      "answer": "ความร้อน แสง และการเคลื่อนไหว",
+      "explanation": "เช่น เตารีดเปลี่ยนเป็นความร้อน หลอดไฟเปลี่ยนเป็นแสง พัดลมเปลี่ยนเป็นการเคลื่อนไหว",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:41:06.340Z",
+      "updated_at": "2025-08-27T07:41:06.340Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "46b5579a-1abe-42d5-9b07-fa6f5b732f51",
+    "fields": {
+      "question": "กระดูกในร่างกายมนุษย์ผู้ใหญ่มีประมาณกี่ชิ้น?",
+      "answer": "206 ชิ้น",
+      "explanation": "เด็กแรกเกิดมีมากกว่า 270 ชิ้น แต่หลายชิ้นจะเชื่อมกันเมื่อโตขึ้น",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:29:10.795Z",
+      "updated_at": "2025-08-27T07:29:10.795Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "487f73ea-97f5-444c-b829-e36c4fb13bed",
+    "fields": {
+      "question": "Output Device คืออะไร",
+      "answer": "อุปกรณ์แสดงผลจากคอมพิวเตอร์",
+      "explanation": "เช่น จอภาพ ลำโพง เครื่องพิมพ์",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:08:41.502Z",
+      "updated_at": "2025-08-27T09:08:41.502Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "511edc6c-a52e-4014-9de1-1215d157fb16",
+    "fields": {
+      "question": "โปรแกรม Antivirus ใช้ทำอะไร",
+      "answer": "ป้องกันและกำจัดไวรัสคอมพิวเตอร์",
+      "explanation": "ช่วยรักษาความปลอดภัยของข้อมูล",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:11:20.331Z",
+      "updated_at": "2025-08-27T09:11:20.331Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "52e7bfb4-513f-4baa-90c2-4c2c895c01fb",
+    "fields": {
+      "question": "การแยกสีรุ้งเกิดจากปรากฏการณ์อะไร?",
+      "answer": "การหักเหและการกระจายแสง",
+      "explanation": "หยดน้ำในอากาศทำหน้าที่คล้ายปริซึม แยกแสงสีขาวเป็นหลายสี",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:27:44.579Z",
+      "updated_at": "2025-08-27T07:27:44.579Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "5499c94a-e807-4d07-9b80-63359c88d7fc",
+    "fields": {
+      "question": "ดวงดาวใดที่มีแสงของตัวเอง?",
+      "answer": "ดาวฤกษ์",
+      "explanation": "ดาวฤกษ์สร้างพลังงานด้วยปฏิกิริยานิวเคลียร์ฟิวชัน เช่น ดวงอาทิตย์",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:42:33.034Z",
+      "updated_at": "2025-08-27T07:42:33.034Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "54af70c7-81e2-4815-aa39-35d8cc0c234f",
+    "fields": {
+      "question": "การหมุนรอบตัวเองของโลกทำให้เกิดอะไร?",
+      "answer": "กลางวันและกลางคืน",
+      "explanation": "เมื่อโลกหมุน ด้านที่หันเข้าหาดวงอาทิตย์จะเป็นกลางวัน ส่วนด้านตรงข้ามจะเป็นกลางคืน",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:38:04.766Z",
+      "updated_at": "2025-08-27T07:38:04.766Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "573e2b45-42d5-4efe-97d7-47d9836629a4",
+    "fields": {
+      "question": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Speaker, CPU",
+      "answer": "Speaker",
+      "explanation": "ลำโพงใช้ให้เสียงออกมา ส่วนเมาส์เป็น input และ CPU เป็นชิ้นส่วนภายใน",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:42:31.645Z",
+      "updated_at": "2025-08-27T03:42:31.645Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "58325405-acdb-4255-b182-756d62524c5f",
+    "fields": {
+      "question": "IOT ย่อมาจากอะไร",
+      "answer": "Internet of Things",
+      "explanation": "การเชื่อมต่ออุปกรณ์ต่างๆ เข้าสู่อินเทอร์เน็ต",
+      "difficulty": 3,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:16:29.001Z",
+      "updated_at": "2025-08-27T09:16:29.001Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "58335c51-3f9c-4a3f-a5bc-878df5fc1e35",
+    "fields": {
+      "question": "Input Device หมายถึงอะไร",
+      "answer": "อุปกรณ์นำเข้าข้อมูลเข้าสู่คอมพิวเตอร์",
+      "explanation": "เช่น คีย์บอร์ด เมาส์ ไมโครโฟน สแกนเนอร์",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:08:20.747Z",
+      "updated_at": "2025-08-27T09:08:20.747Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "5da4f854-1015-4394-b1ec-5c50a5bef965",
+    "fields": {
+      "question": "การหายใจเข้าออกทำให้ได้ก๊าซอะไรเข้าสู่ร่างกาย และขับก๊าซอะไรออก?",
+      "answer": "ได้ก๊าซออกซิเจน ขับก๊าซคาร์บอนไดออกไซด์",
+      "explanation": "ปอดแลกเปลี่ยนก๊าซ ออกซิเจนเข้าสู่เลือด คาร์บอนไดออกไซด์ถูกขับออก",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:44:00.885Z",
+      "updated_at": "2025-08-27T07:44:00.885Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "5f482843-3558-453b-8002-44f2cd77118a",
+    "fields": {
+      "question": "เสียงเดินทางได้ดีกว่าในของแข็ง ของเหลว หรือก๊าซ?",
+      "answer": "ของแข็ง",
+      "explanation": "เพราะโมเลกุลในของแข็งอยู่ใกล้กันมาก จึงถ่ายทอดการสั่นสะเทือนได้เร็วกว่า",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:29:29.339Z",
+      "updated_at": "2025-08-27T07:29:29.339Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "62137cd5-705a-4799-ae7e-8ae946c3b6c1",
+    "fields": {
+      "question": "อวัยวะใดทำหน้าที่ควบคุมการทำงานของร่างกายเป็นหลัก?",
+      "answer": "สมอง",
+      "explanation": "สมองควบคุมการเคลื่อนไหว ความคิด ความรู้สึก และการทำงานของอวัยวะต่าง ๆ",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:30:07.087Z",
+      "updated_at": "2025-08-27T07:30:07.087Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "622297f5-b4a0-42a8-b363-34d9c4bce061",
+    "fields": {
+      "question": "ปรอทในเทอร์โมมิเตอร์เปลี่ยนแปลงตามสิ่งใด?",
+      "answer": "อุณหภูมิ",
+      "explanation": "เมื่อร้อนปรอทขยายตัว เมื่อเย็นปรอทย่อส่วน ทำให้ใช้วัดอุณหภูมิได้",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:39:00.135Z",
+      "updated_at": "2025-08-27T07:39:00.136Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
+    "fields": {
+      "question": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
+      "answer": "Ctrl + S",
+      "explanation": "ใช้เก็บเอกสารทันทีแบบด่วน",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:44:14.684Z",
+      "updated_at": "2025-08-27T03:44:14.684Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "67339ccb-b33e-4c6b-be80-ce79deadf523",
+    "fields": {
+      "question": "น้ำแข็งเมื่อละลายกลายเป็นอะไร?",
+      "answer": "กลายเป็นน้ำ",
+      "explanation": "น้ำแข็งเป็นสถานะของแข็งของน้ำ เมื่อละลายจะเปลี่ยนเป็นสถานะของเหลวโดยไม่เปลี่ยนสาร",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:23:08.778Z",
+      "updated_at": "2025-08-27T07:23:08.778Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "7351d2c3-d3bd-40ec-9feb-eef9cf942386",
+    "fields": {
+      "question": "SSD แตกต่างจาก HDD อย่างไร",
+      "answer": "SSD เร็วกว่า ไม่มีจานหมุน ใช้แฟลชเมมโมรี",
+      "explanation": "ทำให้บูตเครื่องและเปิดไฟล์เร็วกว่า HDD",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:14:57.954Z",
+      "updated_at": "2025-08-27T09:14:57.954Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
+    "fields": {
+      "question": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
+      "answer": "Search engine",
+      "explanation": "เช่น Google, Bing ช่วยค้นหาเว็บเพจตามคำที่ต้องการ",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:45:09.513Z",
+      "updated_at": "2025-08-27T03:45:09.513Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "75248909-1ba3-45be-8e1a-275e0a5c280f",
+    "fields": {
+      "question": "ดาวเคราะห์ที่อยู่ใกล้ดวงอาทิตย์ที่สุดคืออะไร?",
+      "answer": "ดาวพุธ",
+      "explanation": "เป็นดาวเคราะห์ที่เล็กที่สุดและใกล้ดวงอาทิตย์ที่สุด ใช้เวลาโคจรรอบดวงอาทิตย์เพียง 88 วันก",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:39:41.374Z",
+      "updated_at": "2025-08-27T07:39:41.374Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
+    "fields": {
+      "question": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
+      "answer": "เปิด “แท็บ” (Tab) ใหม่",
+      "explanation": "ช่วยทำงานหลาย ๆ เว็บพร้อมกันในหน้าต่างเดียว",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:45:26.250Z",
+      "updated_at": "2025-08-27T03:45:26.250Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "757aef9f-eab9-472c-b4e9-b489f2c46c12",
+    "fields": {
+      "question": "ดาวเคราะห์ดวงใดใหญ่ที่สุดในระบบสุริยะ?",
+      "answer": "ดาวพฤหัสบดี",
+      "explanation": "มีขนาดเส้นผ่านศูนย์กลางราว 142,000 กิโลเมตร ใหญ่กว่าโลกประมาณ 11 เท่า",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:25:56.552Z",
+      "updated_at": "2025-08-27T07:25:56.552Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
+    "fields": {
+      "question": "ใครคือ “Cybernaut”?",
+      "answer": "ผู้ใช้อินเทอร์เน็ต",
+      "explanation": "คนที่ใช้อินเทอร์เน็ตเพื่อสำรวจหรือสื่อสาร",
+      "difficulty": 3,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:46:09.068Z",
+      "updated_at": "2025-08-27T03:46:09.068Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "7939de61-ce69-475d-8913-7eec6fcadf31",
+    "fields": {
+      "question": "ดวงดาวใดเป็นศูนย์กลางของระบบสุริยะ?",
+      "answer": "ดวงอาทิตย์",
+      "explanation": "ดาวฤกษ์ที่ให้พลังงานและแรงโน้มถ่วงควบคุมดาวเคราะห์ทั้งหมด",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:28:31.057Z",
+      "updated_at": "2025-08-27T07:28:31.057Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "7b21d428-dc85-4c85-98c8-598762c948ec",
+    "fields": {
+      "question": "พลังงานลมมาจากอะไร?",
+      "answer": "การเคลื่อนที่ของอากาศ",
+      "explanation": "เกิดจากความแตกต่างของความกดอากาศและอุณหภูมิในบรรยากาศ",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:42:15.764Z",
+      "updated_at": "2025-08-27T07:42:15.764Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "7cc9d1cf-f8e3-45c6-92b1-0340b89a9cfa",
+    "fields": {
+      "question": "พลังงานความร้อนถ่ายเทได้ 3 วิธีคืออะไร?",
+      "answer": "การนำ การพา และการแผ่รังสี",
+      "explanation": "การนำผ่านสสาร การพาผ่านการไหลของของไหล และการแผ่รังสีไม่ต้องอาศัยตัวกลาง",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:44:54.771Z",
+      "updated_at": "2025-08-27T07:44:54.771Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "90ee0ed8-e2a5-4ec4-b949-0c2a9a836b4b",
+    "fields": {
+      "question": "ร่างกายมนุษย์ต้องการก๊าซอะไรในการหายใจ?",
+      "answer": "ก๊าซออกซิเจน (O₂)",
+      "explanation": "เซลล์ของร่างกายใช้ O₂ ในกระบวนการหายใจระดับเซลล์เพื่อสร้างพลังงาน",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:24:28.183Z",
+      "updated_at": "2025-08-27T07:24:28.183Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "9202d2e7-4552-459f-8ba7-3e42fc59db4a",
+    "fields": {
+      "question": "โลหะใดนำไฟฟ้าได้ดีที่สุด?",
+      "answer": "เงิน (Silver)",
+      "explanation": "เงินมีค่าการนำไฟฟ้าสูงสุด แต่ราคาสูงจึงมักใช้ทองแดงแทน",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:30:25.127Z",
+      "updated_at": "2025-08-27T07:30:25.127Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "94c7da02-759d-4e48-9f37-05a5318faa6d",
+    "fields": {
+      "question": "ดาวเคราะห์ที่โคจรรอบตัวเองเอียงทำให้เกิดฤดูกาลชัดเจนคืออะไร?",
+      "answer": "โลก",
+      "explanation": "โลกเอียงประมาณ 23.5° ทำให้เกิดการสลับของฤดูกาลในแต่ละปี",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:46:10.368Z",
+      "updated_at": "2025-08-27T07:46:10.368Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "9682ef5d-cf0e-4ef5-8d37-044fc03c8615",
+    "fields": {
+      "question": "การที่วัตถุเปลี่ยนจากของแข็งเป็นไอโดยไม่ผ่านของเหลวเรียกว่าอะไร?",
+      "answer": "การระเหิด",
+      "explanation": "เช่น น้ำแข็งแห้ง (CO₂ แข็ง) ระเหิดเป็นก๊าซโดยไม่ละลายเป็นน้ำ",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:45:49.240Z",
+      "updated_at": "2025-08-27T07:45:49.240Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
+    "fields": {
+      "question": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก: Modem, Keyboard)",
+      "answer": "Modem",
+      "explanation": "แปลงสัญญาณอินเทอร์เน็ตให้ใช้งานกับคอมพ์ได้",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:46:22.885Z",
+      "updated_at": "2025-08-27T03:46:22.885Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "9b9f473c-1a39-46ea-88a1-e29ce4767aad",
+    "fields": {
+      "question": "น้ำหนักกับมวลต่างกันอย่างไร?",
+      "answer": "มวลคือปริมาณสสาร น้ำหนักคือแรงโน้มถ่วงที่กระทำต่อมวลนั้น",
+      "explanation": "มวล (Mass) คือปริมาณสสารในวัตถุ ไม่ว่าจะอยู่ที่ไหน มวลจะมีค่าเท่าเดิมเสมอ เช่น ก้อนหินหนัก 2 กิโลกรัมบนโลก ก็จะยังมีมวล 2 กิโลกรัมบนดวงจันทร์ \r\n\r\nส่วนน้ำหนัก (Weight) คือแรงที่แรงโน้มถ่วง (Gravity) กระทำต่อมวลนั้น",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:34:09.117Z",
+      "updated_at": "2025-08-27T07:34:09.117Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
+    "fields": {
+      "question": "E-Mail ย่อมาจากอะไร?",
+      "answer": "Electronic Mail",
+      "explanation": "เป็นการส่งจดหมายผ่านระบบคอมพิวเตอร์",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:45:54.862Z",
+      "updated_at": "2025-08-27T03:45:54.862Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "aa2b3014-c227-4122-93db-df7506258bb5",
+    "fields": {
+      "question": "GPU ใช้ทำอะไร",
+      "answer": "ประมวลผลกราฟิกและภาพ 3 มิติ",
+      "explanation": "สำคัญในการเล่นเกมและงานกราฟิก",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:15:22.135Z",
+      "updated_at": "2025-08-27T09:15:22.135Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
+    "fields": {
+      "question": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
+      "answer": "รูปเล็กแทนโปรแกรมหรือไฟล์",
+      "explanation": "คลิกเพื่อเปิดไฟล์หรือโปรแกรมนั้น ๆ ได้สะดวก",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:43:37.893Z",
+      "updated_at": "2025-08-27T03:43:37.893Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "ae1427ce-c4f1-4974-9332-b716601ef875",
+    "fields": {
+      "question": "อินเทอร์เน็ตคืออะไร?",
+      "answer": "เครือข่ายคอมพิวเตอร์ขนาดใหญ่ที่เชื่อมต่อกันทั่วโลก",
+      "explanation": "ช่วยให้คอมพิวเตอร์หลายเครื่องสื่อสารแลกเปลี่ยนข้อมูลได้",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:44:33.242Z",
+      "updated_at": "2025-08-27T03:44:33.242Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "af8360d8-ec2e-4dab-b1b5-8491c9a7fc82",
+    "fields": {
+      "question": "การบันทึกไฟล์ใน Word ใช้ปุ่มลัดใด",
+      "answer": "Ctrl + S",
+      "explanation": "ช่วยบันทึกไฟล์ได้รวดเร็ว",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:17:09.022Z",
+      "updated_at": "2025-08-27T09:17:09.022Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "b1edc1b9-527f-48df-b390-d4b517adb509",
+    "fields": {
+      "question": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Laptop, Desktop)",
+      "answer": "Laptop",
+      "explanation": "พกพาสะดวก เหมาะสำหรับใช้นอกบ้าน\r\nระดับ: ง่าย",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:46:36.756Z",
+      "updated_at": "2025-08-27T03:46:36.756Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "b611eeaf-8b05-44cf-be95-3bb7ca2bad44",
+    "fields": {
+      "question": "โลกหมุนรอบตัวเองใช้เวลากี่ชั่วโมง?",
+      "answer": "24 ชั่วโมง",
+      "explanation": "การหมุนรอบตัวเองของโลกทำให้เกิดกลางวันและกลางคืน ใช้เวลาประมาณ 24 ชั่วโมง",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:23:52.337Z",
+      "updated_at": "2025-08-27T07:23:52.337Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "ba401ef1-751d-45d5-8691-8b0dd3ff0349",
+    "fields": {
+      "question": "พลังงานแสงอาทิตย์จัดเป็นพลังงานประเภทใด?",
+      "answer": "พลังงานหมุนเวียน",
+      "explanation": "เพราะเป็นพลังงานที่ใช้แล้วไม่หมดสิ้น สามารถรับได้อย่างต่อเนื่องจากดวงอาทิตย์",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:35:00.584Z",
+      "updated_at": "2025-08-27T07:35:00.584Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "bab6db91-02c0-423b-9d6c-4d74fcc27250",
+    "fields": {
+      "question": "พืชสร้างอาหารเองได้ด้วยกระบวนการใด?",
+      "answer": "การสังเคราะห์ด้วยแสง",
+      "explanation": "พืชใช้แสงอาทิตย์ น้ำ และคาร์บอนไดออกไซด์ สร้างน้ำตาลและปล่อยออกซิเจน",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:24:47.856Z",
+      "updated_at": "2025-08-27T07:24:47.856Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "bf023b6a-b2e6-4bca-90c9-b6ae229f69e0",
+    "fields": {
+      "question": "ทำไมเราจึงต้องกินอาหาร?",
+      "answer": "เพื่อให้พลังงานและสารอาหารแก่ร่างกาย",
+      "explanation": "ร่างกายต้องใช้พลังงานในการทำงานและใช้สารอาหารในการเจริญเติบโตและซ่อมแซม",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:43:38.158Z",
+      "updated_at": "2025-08-27T07:43:38.158Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
+    "fields": {
+      "question": "CPU ย่อมาจากอะไร?",
+      "answer": "Central Processing Unit",
+      "explanation": "CPU คือหน่วยประมวลผลหลัก ควบคุมการทำงานของคอมพิวเตอร์ทุกส่วน",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:41:45.412Z",
+      "updated_at": "2025-08-27T03:41:45.412Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "c0ffdea2-de4e-4802-819b-df9d8e76b150",
+    "fields": {
+      "question": "ฟ้าแลบเกิดจากอะไร?",
+      "answer": "การปลดปล่อยประจุไฟฟ้าในบรรยากาศ",
+      "explanation": "เมฆเกิดการเสียดสีจนมีประจุสะสม เมื่อต่างศักย์มากพอจะเกิดการถ่ายประจุเป็นแสงวาบ",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:40:24.325Z",
+      "updated_at": "2025-08-27T07:40:24.325Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "c5ce96c0-4509-4c6e-a2b8-182973999972",
+    "fields": {
+      "question": "การกด Ctrl + V ใช้ทำอะไร",
+      "answer": "วางข้อมูล (Paste)",
+      "explanation": "ใช้คู่กับ Ctrl + C หรือ Ctrl + X",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:16:52.871Z",
+      "updated_at": "2025-08-27T09:16:52.871Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "c73068af-dc03-4894-b9f9-f3c5ecf2096a",
+    "fields": {
+      "question": "สัตว์เลี้ยงลูกด้วยน้ำนมทั้งหมดมีลักษณะร่วมสำคัญคืออะไร?",
+      "answer": "มีต่อมน้ำนมและเลี้ยงลูกด้วยนม",
+      "explanation": "แม้จะมีรูปร่างต่างกัน เช่น วาฬ ค้างคาว แต่ก็มีคุณสมบัติพื้นฐานนี้เหมือนกัน",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:25:38.132Z",
+      "updated_at": "2025-08-27T07:25:38.132Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "cf734dcb-863a-4f6c-a5db-6ee5c0e60f40",
+    "fields": {
+      "question": "การที่น้ำกลายเป็นไอน้ำเรียกว่าอะไร?",
+      "answer": "การระเหย",
+      "explanation": "โมเลกุลของน้ำได้รับพลังงานความร้อนจนมีพลังงานเพียงพอที่จะหลุดออกเป็นไอ",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:27:06.971Z",
+      "updated_at": "2025-08-27T07:27:06.971Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d1ec3d13-be6b-4626-9f8f-f75e92281853",
+    "fields": {
+      "question": "แรงที่ดึงทุกสิ่งเข้าสู่โลกเรียกว่าอะไร?",
+      "answer": "แรงโน้มถ่วง",
+      "explanation": "แรงโน้มถ่วงทำให้วัตถุตกสู่พื้นและทำให้โลกโคจรรอบดวงอาทิตย์",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:35:25.757Z",
+      "updated_at": "2025-08-27T07:35:25.757Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
+    "fields": {
+      "question": "คอมพิวเตอร์คืออะไร?",
+      "answer": "อุปกรณ์อิเล็กทรอนิกส์ที่ใช้เก็บ ประมวลผล และดึงข้อมูลมาใช้งาน",
+      "explanation": "คอมพิวเตอร์สามารถทำงานหลายอย่าง เช่น คำนวณ ส่งข้อมูล และจัดเก็บข้อมูลได้",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:41:24.563Z",
+      "updated_at": "2025-08-27T03:41:24.563Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d5345eb9-5a34-4eac-8e56-c37afaf2c5b5",
+    "fields": {
+      "question": "เซลล์สมองเรียกว่าอะไร?",
+      "answer": "เซลล์ประสาท (Neuron)",
+      "explanation": "มีหน้าที่รับ ส่ง และประมวลผลสัญญาณไฟฟ้าในระบบประสาท",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:29:46.178Z",
+      "updated_at": "2025-08-27T07:29:46.178Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d7715b2a-d8c5-4df9-94d3-f6f3a151993a",
+    "fields": {
+      "question": "เลือดในร่างกายมนุษย์สูบฉีดโดยอวัยวะใด?",
+      "answer": "หัวใจ",
+      "explanation": "หัวใจทำหน้าที่สูบฉีดเลือดไปเลี้ยงส่วนต่าง ๆ ของร่างกายผ่านหลอดเลือด",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:25:20.347Z",
+      "updated_at": "2025-08-27T07:25:20.347Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d85dd2ae-13d5-440b-950b-eefc099adfce",
+    "fields": {
+      "question": "น้ำเดือดที่อุณหภูมิเท่าไร (ที่ความดันบรรยากาศปกติ)?",
+      "answer": "100 องศาเซลเซียส",
+      "explanation": "ที่ความดัน 1 บรรยากาศ น้ำจะเดือดที่ 100 °C แต่หากความดันเปลี่ยน จุดเดือดก็เปลี่ยนได้",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:26:33.582Z",
+      "updated_at": "2025-08-27T07:26:33.582Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d8bc4faa-33c3-4eba-ad53-61fed4a9b21b",
+    "fields": {
+      "question": "ดาวเคราะห์สีแดงคือดาวอะไร?",
+      "answer": "ดาวอังคาร",
+      "explanation": "ได้ชื่อว่าดาวเคราะห์สีแดงเพราะมีสนิมเหล็ก (iron oxide) ปกคลุมผิว",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:40:43.890Z",
+      "updated_at": "2025-08-27T07:40:43.890Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "d8ffc151-077f-4a5a-91ca-f6d3e53161f7",
+    "fields": {
+      "question": "เหตุใดเราจึงเห็นฟ้าเป็นสีฟ้า?",
+      "answer": "เพราะการกระเจิงของแสง (Rayleigh scattering)",
+      "explanation": "อากาศกระจายแสงสีน้ำเงินมากกว่าสีอื่น ทำให้ท้องฟ้าดูเป็นสีน้ำเงิน",
+      "difficulty": 3,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:41:59.478Z",
+      "updated_at": "2025-08-27T07:41:59.478Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "da31a32f-a9a2-4145-99c6-34093ac4f40f",
+    "fields": {
+      "question": "ธาตุพื้นฐานที่เล็กที่สุดคืออะไร?",
+      "answer": "ไฮโดรเจน",
+      "explanation": "มีเพียงโปรตอน 1 ตัว และอิเล็กตรอน 1 ตัว เป็นธาตุแรกในตารางธาตุ",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:27:24.259Z",
+      "updated_at": "2025-08-27T07:27:24.259Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "dcbbd00d-2fe2-4dee-bc0f-ead48c2188db",
+    "fields": {
+      "question": "HTTP ย่อมาจากอะไร",
+      "answer": "HyperText Transfer Protocol",
+      "explanation": "โปรโตคอลการรับ-ส่งข้อมูลของเว็บเพจ",
+      "difficulty": 3,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:14:13.626Z",
+      "updated_at": "2025-08-27T09:14:13.626Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "e0c243a7-3bf0-4a61-ae79-8664467115cb",
+    "fields": {
+      "question": "Cloud Storage คืออะไร",
+      "answer": "พื้นที่เก็บข้อมูลออนไลน์",
+      "explanation": "เช่น Google Drive, OneDrive",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:11:38.139Z",
+      "updated_at": "2025-08-27T09:11:38.139Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "e142816c-6299-43dc-9134-e880aadfaac4",
+    "fields": {
+      "question": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, Monitor, Printer",
+      "answer": "Keyboard",
+      "explanation": "คีย์บอร์ดใช้พิมพ์ข้อมูลเข้าเครื่อง ส่วนจอภาพและเครื่องพิมพ์เป็นอุปกรณ์แสดงผล (output)",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:42:16.175Z",
+      "updated_at": "2025-08-27T03:42:16.175Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "e5c5ed30-1577-43f0-b5bf-2777ee1fee22",
+    "fields": {
+      "question": "น้ำกลายเป็นน้ำแข็งเรียกว่ากระบวนการอะไร?",
+      "answer": "การแข็งตัว",
+      "explanation": "น้ำเปลี่ยนสถานะจากของเหลวเป็นของแข็งเมื่ออุณหภูมิลดลงถึง 0 °C",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:40:05.442Z",
+      "updated_at": "2025-08-27T07:40:05.442Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "e7bef7a7-ba05-4ff4-a08a-536f3cda4217",
+    "fields": {
+      "question": "สารใดทำให้พืชมีสีเขียว?",
+      "answer": "คลอโรฟิลล์",
+      "explanation": "คลอโรฟิลล์เป็นรงควัตถุที่ดูดซับแสงและมีสีเขียว ทำให้พืชใช้สังเคราะห์แสงได้",
+      "difficulty": 2,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:26:15.534Z",
+      "updated_at": "2025-08-27T07:26:15.534Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "e8a3f73f-ff0e-48cc-9ecd-67db27fb08fe",
+    "fields": {
+      "question": "การหมุนรอบดวงอาทิตย์ของโลกใช้เวลากี่วัน?",
+      "answer": "365 วัน (ประมาณ 1 ปี)",
+      "explanation": "โลกโคจรรอบดวงอาทิตย์ทำให้เกิดฤดูกาล",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:26:50.615Z",
+      "updated_at": "2025-08-27T07:26:50.615Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
+    "fields": {
+      "question": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
+      "answer": "ย่อหน้าต่างให้เป็นไอคอนบนทาสก์บาร์",
+      "explanation": "ช่วยจัดหน้าต่างบนหน้าจอให้เป็นระเบียบ",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:43:01.494Z",
+      "updated_at": "2025-08-27T03:43:01.494Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "f56ba348-34ad-4935-8cc8-11b9dcb4188a",
+    "fields": {
+      "question": "ปอดของคนอยู่กี่ข้าง?",
+      "answer": "2 ข้าง (ซ้ายและขวา)",
+      "explanation": "ปอดทำหน้าที่แลกเปลี่ยนก๊าซในการหายใจ มี 2 ข้างไม่เท่ากัน ขวาใหญ่กว่าซ้ายเล็กน้อย",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:28:50.804Z",
+      "updated_at": "2025-08-27T07:28:50.804Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "f917f83f-0043-4f3a-95d3-0bfd1ac89fe1",
+    "fields": {
+      "question": "สัตว์ที่สร้างใยเพื่อจับเหยื่อคืออะไร?",
+      "answer": "แมงมุม",
+      "explanation": "แมงมุมปล่อยเส้นใยเหนียวเพื่อดักจับแมลงเป็นอาหาร",
+      "difficulty": 1,
+      "topic": 2,
+      "is_active": true,
+      "created_at": "2025-08-27T07:45:31.329Z",
+      "updated_at": "2025-08-27T07:45:31.330Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "fd6c63bf-9ac5-4518-a594-5578a2b03a18",
+    "fields": {
+      "question": "Search Engine คืออะไร",
+      "answer": "เครื่องมือค้นหาข้อมูลบนอินเทอร์เน็ต",
+      "explanation": "เช่น Google, Bing",
+      "difficulty": 1,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T09:14:40.001Z",
+      "updated_at": "2025-08-27T09:14:40.001Z"
+    }
+  },
+  {
+    "model": "quest.question",
+    "pk": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
+    "fields": {
+      "question": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
+      "answer": "Random Access Memory — ข้อมูลจะหายเมื่อปิดเครื่อง (volatile memory)",
+      "explanation": "RAM ใช้เก็บข้อมูลชั่วคราวในขณะคอมพิวเตอร์ทำงาน",
+      "difficulty": 2,
+      "topic": 1,
+      "is_active": true,
+      "created_at": "2025-08-27T03:42:02.052Z",
+      "updated_at": "2025-08-27T03:42:02.052Z"
+    }
   }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2025-08-27T03:41:24.566Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
-    "object_repr": "คอมพิวเตอร์คืออะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2025-08-27T03:41:45.415Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
-    "object_repr": "CPU ย่อมาจากอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2025-08-27T03:42:02.054Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
-    "object_repr": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2025-08-27T03:42:16.176Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "e142816c-6299-43dc-9134-e880aadfaac4",
-    "object_repr": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, …",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2025-08-27T03:42:31.647Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "573e2b45-42d5-4efe-97d7-47d9836629a4",
-    "object_repr": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Sp…",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2025-08-27T03:42:45.710Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
-    "object_repr": "มอนิเตอร์คืออะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2025-08-27T03:43:01.496Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
-    "object_repr": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2025-08-27T03:43:16.987Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "38dec0fa-846d-47d2-b2bd-2b490871197b",
-    "object_repr": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2025-08-27T03:43:37.894Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
-    "object_repr": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2025-08-27T03:43:50.399Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "04f0c73f-1a82-42cd-8736-2de8dd258154",
-    "object_repr": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2025-08-27T03:44:14.686Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
-    "object_repr": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-08-27T03:44:33.243Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "ae1427ce-c4f1-4974-9332-b716601ef875",
-    "object_repr": "อินเทอร์เน็ตคืออะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-08-27T03:44:50.657Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "319d4c73-275a-4432-8034-7e4d9296114a",
-    "object_repr": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-08-27T03:45:09.516Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
-    "object_repr": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-08-27T03:45:26.252Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
-    "object_repr": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-08-27T03:45:41.491Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "103186ef-f622-4c78-bcd3-dc631289cf74",
-    "object_repr": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2025-08-27T03:45:54.863Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
-    "object_repr": "E-Mail ย่อมาจากอะไร?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2025-08-27T03:46:09.070Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
-    "object_repr": "ใครคือ “Cybernaut”?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2025-08-27T03:46:22.887Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
-    "object_repr": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก:…",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2025-08-27T03:46:36.758Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "b1edc1b9-527f-48df-b390-d4b517adb509",
-    "object_repr": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Lapto…",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 1,
-  "fields": {
-    "name": "Can add log entry",
-    "content_type": 1,
-    "codename": "add_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 2,
-  "fields": {
-    "name": "Can change log entry",
-    "content_type": 1,
-    "codename": "change_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 3,
-  "fields": {
-    "name": "Can delete log entry",
-    "content_type": 1,
-    "codename": "delete_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 4,
-  "fields": {
-    "name": "Can view log entry",
-    "content_type": 1,
-    "codename": "view_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 5,
-  "fields": {
-    "name": "Can add permission",
-    "content_type": 2,
-    "codename": "add_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 6,
-  "fields": {
-    "name": "Can change permission",
-    "content_type": 2,
-    "codename": "change_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 7,
-  "fields": {
-    "name": "Can delete permission",
-    "content_type": 2,
-    "codename": "delete_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 8,
-  "fields": {
-    "name": "Can view permission",
-    "content_type": 2,
-    "codename": "view_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 9,
-  "fields": {
-    "name": "Can add group",
-    "content_type": 3,
-    "codename": "add_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 10,
-  "fields": {
-    "name": "Can change group",
-    "content_type": 3,
-    "codename": "change_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 11,
-  "fields": {
-    "name": "Can delete group",
-    "content_type": 3,
-    "codename": "delete_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 12,
-  "fields": {
-    "name": "Can view group",
-    "content_type": 3,
-    "codename": "view_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 13,
-  "fields": {
-    "name": "Can add user",
-    "content_type": 4,
-    "codename": "add_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 14,
-  "fields": {
-    "name": "Can change user",
-    "content_type": 4,
-    "codename": "change_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 15,
-  "fields": {
-    "name": "Can delete user",
-    "content_type": 4,
-    "codename": "delete_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 16,
-  "fields": {
-    "name": "Can view user",
-    "content_type": 4,
-    "codename": "view_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 17,
-  "fields": {
-    "name": "Can add content type",
-    "content_type": 5,
-    "codename": "add_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 18,
-  "fields": {
-    "name": "Can change content type",
-    "content_type": 5,
-    "codename": "change_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 19,
-  "fields": {
-    "name": "Can delete content type",
-    "content_type": 5,
-    "codename": "delete_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 20,
-  "fields": {
-    "name": "Can view content type",
-    "content_type": 5,
-    "codename": "view_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 21,
-  "fields": {
-    "name": "Can add session",
-    "content_type": 6,
-    "codename": "add_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 22,
-  "fields": {
-    "name": "Can change session",
-    "content_type": 6,
-    "codename": "change_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 23,
-  "fields": {
-    "name": "Can delete session",
-    "content_type": 6,
-    "codename": "delete_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 24,
-  "fields": {
-    "name": "Can view session",
-    "content_type": 6,
-    "codename": "view_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 25,
-  "fields": {
-    "name": "Can add topic",
-    "content_type": 7,
-    "codename": "add_topic"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 26,
-  "fields": {
-    "name": "Can change topic",
-    "content_type": 7,
-    "codename": "change_topic"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 27,
-  "fields": {
-    "name": "Can delete topic",
-    "content_type": 7,
-    "codename": "delete_topic"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 28,
-  "fields": {
-    "name": "Can view topic",
-    "content_type": 7,
-    "codename": "view_topic"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 29,
-  "fields": {
-    "name": "Can add question",
-    "content_type": 8,
-    "codename": "add_question"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 30,
-  "fields": {
-    "name": "Can change question",
-    "content_type": 8,
-    "codename": "change_question"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 31,
-  "fields": {
-    "name": "Can delete question",
-    "content_type": 8,
-    "codename": "delete_question"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 32,
-  "fields": {
-    "name": "Can view question",
-    "content_type": 8,
-    "codename": "view_question"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$NfZyhZdVS32HLq1WgTm3ta$uoQMT8x5IXYQgYOGbfMHb1TlxaF5AuAir19cbLjiW7I=",
-    "last_login": "2025-08-27T03:35:38.268Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2025-08-27T03:32:53.786Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 1,
-  "fields": {
-    "app_label": "admin",
-    "model": "logentry"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 2,
-  "fields": {
-    "app_label": "auth",
-    "model": "permission"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 3,
-  "fields": {
-    "app_label": "auth",
-    "model": "group"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 4,
-  "fields": {
-    "app_label": "auth",
-    "model": "user"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 5,
-  "fields": {
-    "app_label": "contenttypes",
-    "model": "contenttype"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 6,
-  "fields": {
-    "app_label": "sessions",
-    "model": "session"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 7,
-  "fields": {
-    "app_label": "quest",
-    "model": "topic"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 8,
-  "fields": {
-    "app_label": "quest",
-    "model": "question"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "cwww6z8798ndbrg4mkqfod9o1a3gw00v",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGllrx19Kes5g7fqDA8iW4qRC3B0ipYD2zcx7sYDbWsM28hLmxM5MsNPvRhgfue0g3bHdOo-9rctMfFf4QQe_9pSfl8P9O6g46rf2ILIBUlYUBJi8ckRGiGKBpMnFJp1wkp4AJ-uETyS10TYq6aIEUI69P8R3NtA:1ur6wk:VJmEdkST_pHzACJdbqTP073fSNzTSSC7HxeVHLM13kA",
-    "expire_date": "2025-09-10T03:35:38.275Z"
-  }
-},
-{
-  "model": "quest.topic",
-  "pk": 1,
-  "fields": {
-    "name": "computer",
-    "description": "computer",
-    "created_at": "2025-08-27T03:35:54.060Z",
-    "updated_at": "2025-08-27T03:35:54.060Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "04f0c73f-1a82-42cd-8736-2de8dd258154",
-  "fields": {
-    "question": "โปรแกรมประเภท “Word Processing” คือโปรแกรมอะไร?",
-    "answer": "โปรแกรมพิมพ์เอกสาร เช่น Microsoft Word",
-    "explanation": "ถูกใช้งานเพื่อเขียนและจัดรูปแบบเอกสาร",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:43:50.397Z",
-    "updated_at": "2025-08-27T03:43:50.397Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "103186ef-f622-4c78-bcd3-dc631289cf74",
-  "fields": {
-    "question": "ใครคือ “บิดาแห่งคอมพิวเตอร์” (Father of the Computer)?",
-    "answer": "Charles Babbage",
-    "explanation": "เขาออกแบบแนวคิดของคอมพิวเตอร์เชิงกลยุทธเครื่องแรก",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:45:41.491Z",
-    "updated_at": "2025-08-27T03:45:41.491Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "203a40a1-5e77-4d09-bc19-3c4de32655c7",
-  "fields": {
-    "question": "มอนิเตอร์คืออะไร?",
-    "answer": "อุปกรณ์แสดงภาพของคอมพิวเตอร์",
-    "explanation": "จอภาพใช้ดูสิ่งที่เครื่องคอมพิวเตอร์กำลังแสดงผล เช่น ข้อความ ภาพ วิดีโอ",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:42:45.708Z",
-    "updated_at": "2025-08-27T03:42:45.708Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "319d4c73-275a-4432-8034-7e4d9296114a",
-  "fields": {
-    "question": "โลกกว้างเว็บ (WWW) ย่อมาจากอะไร?",
-    "answer": "World Wide Web",
-    "explanation": "ระบบลิ้งก์ที่เชื่อมเว็บไซต์บนอินเทอร์เน็ต",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:44:50.655Z",
-    "updated_at": "2025-08-27T03:44:50.655Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "38dec0fa-846d-47d2-b2bd-2b490871197b",
-  "fields": {
-    "question": "ปุ่ม “Maximize” ทำหน้าที่อะไร?",
-    "answer": "ขยายหน้าต่างให้เต็มจอ",
-    "explanation": "เหมาะสำหรับการดูเนื้อหาหน้าต่างให้ใหญ่ขึ้น",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:43:16.985Z",
-    "updated_at": "2025-08-27T03:43:16.985Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "573e2b45-42d5-4efe-97d7-47d9836629a4",
-  "fields": {
-    "question": "ตัวไหนเป็นอุปกรณ์แสดงผล (output device)? ตัวเลือก: Mouse, Speaker, CPU",
-    "answer": "Speaker",
-    "explanation": "ลำโพงใช้ให้เสียงออกมา ส่วนเมาส์เป็น input และ CPU เป็นชิ้นส่วนภายใน",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:42:31.645Z",
-    "updated_at": "2025-08-27T03:42:31.645Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "64a38f51-4cba-46ff-a6f1-87361b80bd92",
-  "fields": {
-    "question": "วิธีลัด (shortcut) เพื่อบันทึกงานใน Microsoft Word คืออะไร?",
-    "answer": "Ctrl + S",
-    "explanation": "ใช้เก็บเอกสารทันทีแบบด่วน",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:44:14.684Z",
-    "updated_at": "2025-08-27T03:44:14.684Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "7381c448-5ff3-43c2-b777-3bdf95ab1921",
-  "fields": {
-    "question": "โปรแกรมที่ใช้ค้นหาข้อมูลบนอินเทอร์เน็ตเรียกว่าอะไร?",
-    "answer": "Search engine",
-    "explanation": "เช่น Google, Bing ช่วยค้นหาเว็บเพจตามคำที่ต้องการ",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:45:09.513Z",
-    "updated_at": "2025-08-27T03:45:09.513Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "75462ff4-eac4-4cb3-820c-620d9f3e6a62",
-  "fields": {
-    "question": "ก่อนเปิดเว็บใหม่ โดยไม่ปิดหน้าเดิม ใช้ฟังก์ชันอะไร?",
-    "answer": "เปิด “แท็บ” (Tab) ใหม่",
-    "explanation": "ช่วยทำงานหลาย ๆ เว็บพร้อมกันในหน้าต่างเดียว",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:45:26.250Z",
-    "updated_at": "2025-08-27T03:45:26.250Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "781536e9-3e82-4d4c-b91b-cd7f0873a9f2",
-  "fields": {
-    "question": "ใครคือ “Cybernaut”?",
-    "answer": "ผู้ใช้อินเทอร์เน็ต",
-    "explanation": "คนที่ใช้อินเทอร์เน็ตเพื่อสำรวจหรือสื่อสาร",
-    "difficulty": 3,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:46:09.068Z",
-    "updated_at": "2025-08-27T03:46:09.068Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "98a90a0e-4a7a-4c71-838d-deeba1e4ad2e",
-  "fields": {
-    "question": "อุปกรณ์ที่ใช้เชื่อมต่ออินเทอร์เน็ตที่บ้านคืออะไร? (ตัวเลือก: Modem, Keyboard)",
-    "answer": "Modem",
-    "explanation": "แปลงสัญญาณอินเทอร์เน็ตให้ใช้งานกับคอมพ์ได้",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:46:22.885Z",
-    "updated_at": "2025-08-27T03:46:22.885Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "a4831db8-a701-4022-b19e-87b0d01fe6ca",
-  "fields": {
-    "question": "E-Mail ย่อมาจากอะไร?",
-    "answer": "Electronic Mail",
-    "explanation": "เป็นการส่งจดหมายผ่านระบบคอมพิวเตอร์",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:45:54.862Z",
-    "updated_at": "2025-08-27T03:45:54.862Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "acdf4f5a-50aa-4558-9bb7-3d193417d7ce",
-  "fields": {
-    "question": "ไอคอน (Icon) บนเดสก์ท็อปคืออะไร?",
-    "answer": "รูปเล็กแทนโปรแกรมหรือไฟล์",
-    "explanation": "คลิกเพื่อเปิดไฟล์หรือโปรแกรมนั้น ๆ ได้สะดวก",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:43:37.893Z",
-    "updated_at": "2025-08-27T03:43:37.893Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "ae1427ce-c4f1-4974-9332-b716601ef875",
-  "fields": {
-    "question": "อินเทอร์เน็ตคืออะไร?",
-    "answer": "เครือข่ายคอมพิวเตอร์ขนาดใหญ่ที่เชื่อมต่อกันทั่วโลก",
-    "explanation": "ช่วยให้คอมพิวเตอร์หลายเครื่องสื่อสารแลกเปลี่ยนข้อมูลได้",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:44:33.242Z",
-    "updated_at": "2025-08-27T03:44:33.242Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "b1edc1b9-527f-48df-b390-d4b517adb509",
-  "fields": {
-    "question": "คอมพิวเตอร์แบบพกพาที่ใช้สะดวกที่สุดคืออะไร? (ตัวเลือก: Laptop, Desktop)",
-    "answer": "Laptop",
-    "explanation": "พกพาสะดวก เหมาะสำหรับใช้นอกบ้าน\r\nระดับ: ง่าย",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:46:36.756Z",
-    "updated_at": "2025-08-27T03:46:36.756Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "c00b0ab2-fd2c-4ffb-a3cb-0f1516202d96",
-  "fields": {
-    "question": "CPU ย่อมาจากอะไร?",
-    "answer": "Central Processing Unit",
-    "explanation": "CPU คือหน่วยประมวลผลหลัก ควบคุมการทำงานของคอมพิวเตอร์ทุกส่วน",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:41:45.412Z",
-    "updated_at": "2025-08-27T03:41:45.412Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "d513e6ee-e71f-49e0-b3d9-646f898c78c6",
-  "fields": {
-    "question": "คอมพิวเตอร์คืออะไร?",
-    "answer": "อุปกรณ์อิเล็กทรอนิกส์ที่ใช้เก็บ ประมวลผล และดึงข้อมูลมาใช้งาน",
-    "explanation": "คอมพิวเตอร์สามารถทำงานหลายอย่าง เช่น คำนวณ ส่งข้อมูล และจัดเก็บข้อมูลได้",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:41:24.563Z",
-    "updated_at": "2025-08-27T03:41:24.563Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "e142816c-6299-43dc-9134-e880aadfaac4",
-  "fields": {
-    "question": "ตัวไหนเป็นอุปกรณ์นำเข้า (input device)? ตัวเลือก: Keyboard, Monitor, Printer",
-    "answer": "Keyboard",
-    "explanation": "คีย์บอร์ดใช้พิมพ์ข้อมูลเข้าเครื่อง ส่วนจอภาพและเครื่องพิมพ์เป็นอุปกรณ์แสดงผล (output)",
-    "difficulty": 1,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:42:16.175Z",
-    "updated_at": "2025-08-27T03:42:16.175Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "ec39b8c4-b33e-440c-9ab8-083f2da1b3b1",
-  "fields": {
-    "question": "ปุ่ม “Minimize” บนหน้าต่าง (window) ทำงานอย่างไร?",
-    "answer": "ย่อหน้าต่างให้เป็นไอคอนบนทาสก์บาร์",
-    "explanation": "ช่วยจัดหน้าต่างบนหน้าจอให้เป็นระเบียบ",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:43:01.494Z",
-    "updated_at": "2025-08-27T03:43:01.494Z"
-  }
-},
-{
-  "model": "quest.question",
-  "pk": "ff1c842f-5a93-4a3a-99f3-db73206325ec",
-  "fields": {
-    "question": "RAM คืออะไร และข้อมูลจะหายไหมเมื่อปิดเครื่อง?",
-    "answer": "Random Access Memory — ข้อมูลจะหายเมื่อปิดเครื่อง (volatile memory)",
-    "explanation": "RAM ใช้เก็บข้อมูลชั่วคราวในขณะคอมพิวเตอร์ทำงาน",
-    "difficulty": 2,
-    "topic": 1,
-    "is_active": true,
-    "created_at": "2025-08-27T03:42:02.052Z",
-    "updated_at": "2025-08-27T03:42:02.052Z"
-  }
-}
 ]
